@@ -38,5 +38,4 @@ jobs:
 
       #10. Simular despliegue
       - name: Simular despliegue
-        run: |
-          echo "Despliegue simulado exitosamente: la apliacion paso lint y pruebas correctamente."
+        run: npm ci && npm run build
